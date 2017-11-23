@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 
 <head>
-<script src="/assets/jquery.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <style>
 body {
   font-family: helvetica, sans-serif;
@@ -14,16 +16,16 @@ body {
   background: #232323;
 }
 div {
-  height: 350px;
+  height: 300px;
   width: 100%;
   background-size: cover;
 }
 .options {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   background-size: cover;
   position: relative;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   border-radius: 12px;
   display: inline-block;
 }
@@ -83,12 +85,10 @@ li {
 }
 .bybook {
   background-image: url("books.jpeg");
-  float: left;
   margin-left: 10%;
 }
 .bylocation {
   background-image: url("carousel_1.jpg");
-  float: right;
   margin-right: 10%;
 }
 .price {
@@ -149,19 +149,20 @@ li {
       <li><a href="#">Request a Route</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-<h2>Search for Routes</h2>    
-<div class="bybook options">
-  <p>By Book<br>
-  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+<h2>Search for Routes</h2>   
+<div class="row">
+<div class="col-md-4 bybook options">
+  <p>By Book</br>
+  <small>Select a story you'd like to relive and use our guides to help Books books books books</small></p>
 </div>
-
-<div class="bylocation options">
+<div class="col-md-1"></div>
+<div class="col-md-4 bylocation options ">
   <p>By Location</br>
-  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+  <small>Know where you are but not which story to delve into - search by location to discover a new world</small></p>
 </div>
-
+</div>
 <script>
-$("div").on("click", function() {
+$(".options").on("click", function() {
   $(this).toggleClass("show-description");
 });
 </script>

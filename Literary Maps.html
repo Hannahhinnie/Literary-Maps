@@ -87,14 +87,18 @@ li {
   margin-left: 10%;
 }
 .bylocation {
-  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+  background-image: url("carousel_1.jpg");
   float: right;
   margin-right: 10%;
 }
 .price {
   float: right;
 }
-
+#Title {
+  position: absolute;
+  top: 0px;
+  z-index: 1000;
+}
 /*@media (max-width: 500px) {
   h1 { 
     font-size: 50px;
@@ -121,6 +125,11 @@ li {
 </head>
 
 <body>
+<div id='Title'>
+      <h1>Literary Maps</h1>
+      <h2>Relive the Story</h2>
+</div>
+
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -132,8 +141,6 @@ li {
     <div class="carousel-item">
       <img class="d-block w-100" src="carousel_3.jpg" alt="Third slide">
     </div>
-    <h1>Literary Maps</h1>
-<h2>Relive the Story</h2>
   </div>
 
 </div>

@@ -94,11 +94,11 @@ li {
 }
 .bybook {
   background-image: url("books.jpeg");
-  margin-left: 10%;
+  margin: 70px 80px 100px 140px;
 }
 .bylocation {
   background-image: url("carousel_1.jpg");
-  margin-right: 10%;
+  margin: 70px 70px 100px 90px;
 }
 .hannah {
   background-image: url("Hannah.jpg");

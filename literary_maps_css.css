@@ -21,13 +21,27 @@ h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   font-size: 75px;
-  color: #aaaaaa;
+  color: #FFFFFF;
   margin: 60px 0 0 0;
 }
 h2 {
   text-align: center;
   color: white;
   margin: 40px 0 50px 0;
+}
+h3 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  margin: 40px 0 40px 0;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size:18px;
+}
+input[type="submit"] {
+
 }
 p {
   color: rgba(255,255,255,1);
@@ -93,6 +107,19 @@ li {
 .inga {
   background-image: url("Inga.jpg");
   margin-right: 10%;
+}
+.wuthering {
+  background-image: url("wuthering.jpg");
+  background-size: cover;
+}
+.peter {
+  background-image: url("peter.jpg");
+}
+.bfg {
+  background-image: url("bfg.jpg");
+}
+.harry {
+  background-image: url("harry.jpg");
 }
 .price {
   float: right;

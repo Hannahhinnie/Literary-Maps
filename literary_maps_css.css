@@ -13,7 +13,7 @@ div {
   width: 400px;
   background-size: cover;
   position: relative;
-  margin: 20px 0 0 0;
+  margin: 30px 40px 20px 40px;
   border-radius: 12px;
   display: inline-block;
 }
@@ -111,6 +111,7 @@ li {
 .wuthering {
   background-image: url("wuthering.jpg");
   background-size: cover;
+  margin-left: 90px
 }
 .peter {
   background-image: url("peter.jpg");
@@ -120,6 +121,13 @@ li {
 }
 .harry {
   background-image: url("harry.jpg");
+  margin-left: 100px;
+}
+.bleak {
+  background-image: url("bleak.jpg");
+}
+.pride {
+  background-image: url("pride.jpg");
 }
 .price {
   float: right;

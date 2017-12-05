@@ -27,20 +27,24 @@ h1 {
 h2 {
   text-align: center;
   color: white;
-  margin: 40px 0 50px 0;
+  margin: 40px 0 0 0;
 }
 h3 {
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 20px;
-  margin: 40px 0 40px 0;
+  margin: 0px 0 40px 0;
 }
 input {
   border: 0;
   padding: 10px;
   font-size:18px;
+  margin-left:500px;
 }
 input[type="submit"] {
+  background: #838b8b;
+  color: white;
+  margin-left:0px;
 
 }
 p {
@@ -102,11 +106,12 @@ li {
 }
 .hannah {
   background-image: url("Hannah.jpg");
-  margin-left: 10%;
+  background-position: cover;
 }
 .inga {
   background-image: url("Inga.jpg");
-  margin-right: 10%;
+  background-position: center;
+  margin-left: 25%;
 }
 .wuthering {
   background-image: url("wuthering.jpg");

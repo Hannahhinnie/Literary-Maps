@@ -132,6 +132,17 @@ li {
 .price {
   float: right;
 }
+.maps {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  margin: 30px 40px 20px 40px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.peter_map {
+  background-image: url("Peter_Rabbit.gif")
+}
 #Title {
   position: absolute;
   top: 0px;

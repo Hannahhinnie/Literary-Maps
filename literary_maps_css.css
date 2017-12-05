@@ -132,21 +132,30 @@ li {
 .price {
   float: right;
 }
-.maps {
-  height: 300px;
+.map_steps {
+  height: 200px;
+  background-color: #BBBBBB;
   background-size: cover;
   position: relative;
   margin: 30px 40px 20px 40px;
   border-radius: 12px;
   display: inline-block;
+  font-color: white;
+  text-align: center;
 }
-.peter_map {
-  background-image: url("Peter_Rabbit.gif")
+.img {
+  margin: 20px;
+  max-height: 300px;
 }
 #Title {
   position: absolute;
   top: 0px;
   z-index: 1000;
+}
+h4 {
+  font-size: 18px;
+  color: black;
+  margin-top: 40px;
 }
 /*@media (max-width: 500px) {
   h1 { 

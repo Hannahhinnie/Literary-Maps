@@ -156,6 +156,7 @@ li {
 .img_map {
   max-height: 300px;
   display: inline-block;
+  margin: 20px;
 }
 #Title {
   position: absolute;
@@ -170,7 +171,7 @@ h4 {
 .about {
   height: 200px;
   background-color: #d3d3d3;
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 /*@media (max-width: 500px) {

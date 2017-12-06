@@ -121,8 +121,8 @@ li {
 .peter {
   background-image: url("peter.jpg");
 }
-.bfg {
-  background-image: url("bfg.jpg");
+.railway {
+  background-image: url("therailwaychildren.jpg");
 }
 .harry {
   background-image: url("harry.jpg");
@@ -167,6 +167,12 @@ h4 {
   color: black;
   margin-top: 40px;
 }
+.about {
+  height: 200px;
+  background-color: #d3d3d3;
+  margin-top: 150px;
+}
+
 /*@media (max-width: 500px) {
   h1 { 
     font-size: 50px;

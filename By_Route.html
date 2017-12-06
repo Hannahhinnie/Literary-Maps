@@ -8,9 +8,16 @@
   <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 <script src="jquery.js"></script>
 <link href='literary_maps_css.css' rel='stylesheet' type='text/css'>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 </head>
 
 <body>
+
 <div id='Title'>
       <h1><a href='index.html'>Literary Maps</a></h1>
       <h2>By Route</h2>
@@ -36,6 +43,23 @@
       <li><a href="Request_a_route.html">Request a Route</a></li>
       <li><a href="Contact.html">Contact</a></li>
     </ul>
-    <h3>Yorkshire Moors</h3>
-    <h3>Lake District</h3>
-</body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOUqyHcvbDn-UpmYeO9q66bw_2I3-YuSs&callback=initMap">
+    </script>
+ </body>
+</html>

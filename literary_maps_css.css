@@ -151,6 +151,9 @@ li {
 }
 .img {
   margin: 20px;
+  max-height: 160px;
+}
+.img_map {
   max-height: 300px;
 }
 #Title {
